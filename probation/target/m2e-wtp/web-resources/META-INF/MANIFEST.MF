@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: probation
+Implementation-Version: 0.1
+Built-By: Tony
+Implementation-Vendor-Id: com.ht
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/probation
+Created-By: Maven Integration for Eclipse
+

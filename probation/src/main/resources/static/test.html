@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$.post("/testParamBase", {param:"test"}, function(data){
+			alert(data);
+		});
+		$.post("/testMultiParam", {param1:"test", param2:"test1"}, function(data){
+			alert(data);
+		});
+// 		$.post("/testModelParam", {param1:"test", param2:"test1"}, function(data){
+// 			alert(JSON.stringify(data));
+// 		});
+// 		$.post("/testModelParam", {data : '{param1:"test", param2:"test1", paramList:[{param1:"test2", param2:"test3"}]}'} , function(data){
+// 			alert(JSON.stringify(data));
+// 		});
+		
+	});
+</script>
+</head>
+<body>
+123
+</body>
+</html>
